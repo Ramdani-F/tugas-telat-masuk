@@ -1,6 +1,5 @@
 <?php
 
-// Class induk
 class Segitiga {
     protected $alas;
     protected $tinggi;
@@ -35,7 +34,7 @@ class SegitigaSikuSiku extends Segitiga {
         return "Segitiga Siku-Siku";
     }
 
-    // sisi miring dihitung dengan Pythagoras
+  
     public function sisiMiring() {
         return sqrt(pow($this->alas, 2) + pow($this->tinggi, 2));
     }
